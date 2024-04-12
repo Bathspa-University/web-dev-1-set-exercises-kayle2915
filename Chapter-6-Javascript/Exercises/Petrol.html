@@ -1,0 +1,22 @@
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>Calculator</title>
+    <link href="Petrol.css" rel="stylesheet"> 
+    <script src="petrol.js"></script>   
+    </head>
+    <body>
+        <h1> Petrol Calculator </h1> 
+        <form>
+            <h2> Enter Cost of Petrol per Lt. :</h2><br> 
+            <input type="text" id="cost" value="1.72" /><br> 
+            <h2> Enter Liters of Lt. :</h2><br>
+            <input type="text" id="liters" value="0" /><br> 
+            <input type="button" class = "button" onClick="petrolcalculator()" Value="Calculate" /> 
+            </form>
+            <div class="container">
+            <p> Result:
+            <span id = "result" class="style"></span>
+            </p>
+        </div>
+    </body>
